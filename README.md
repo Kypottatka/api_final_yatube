@@ -51,10 +51,22 @@ python3 manage.py runserver
 
 
 ### Endpoints
-/api/v1/posts/: CRUD operations for posts
-/api/v1/comments/: CRUD operations for comments
-/api/v1/likes/: CRUD operations for likes
-/api/v1/users/: CRUD operations for users
+- CRUD operations for posts:
+```
+/api/v1/posts/
+```
+- CRUD operations for comments:
+```
+/api/v1/comments/
+```
+- CRUD operations for users:
+```
+/api/v1/users/
+```
+- CRUD operations for followers:
+```
+/api/v1/follows/
+```
 
 
 ### Аутентфикация
